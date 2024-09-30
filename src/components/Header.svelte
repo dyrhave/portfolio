@@ -1,20 +1,32 @@
 <script>
 	export let y;
 	let tabs = [
-
-	]
+		{name: 'Projects', link:'#projects'},
+		{name: 'About me', link:'#about'},
+	];
 
 </script>
 
-<header>
-	<h1>
-		<b>Rasmus</b> Dyrhave
+<header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid  ' + (
+	y > 0 ? 'py-4 bg-neutral-900 border-violet-950>' : 'py-6 bg-transparent border-transparent'
+)}>
+	<h1 class="font-medium">
+		<b class="font-bold poppins">Rasmus</b> Dyrhave
 	</h1>
-	<div class="">
+	<div class="sm:flex items-center gap-4 hidden">
 		{#each tabs as tab, index}
-			<a>
+			<a href={tab.name} class="duration-200 hover:text-amber-600">
 				<p>{tab.name}</p>
 			</a>
 			{/each}
 	</div>
+	<a
+		href="#"
+		target="_blank"
+		class="colorShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-neutral-900">
+		<div class="absolute top-0 right-full w-full h-full bg-amber-600 opacity-20 group-hover:translate-x-full z-0 duration-200">
+
+		</div>
+		<h4 class="relative z-9">Contact</h4>
+	</a>
 </header>
