@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="35c9f757-1acd-4124-93cf-820ff6509a46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/calculator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pixelpallete.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pixelpallete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rpsgame.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/rpsgame.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Step.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Step.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/particles.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="portfolio" />
